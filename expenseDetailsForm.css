@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: fixed;
+    z-index:78979;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#expenseForm {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+}
+
+#paidAmountContainer {
+    display: none;
+}
+
+#expenseTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#expenseTable th, #expenseTable td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.client {
+    display: flex;
+    align-items: center;
+}
+
+.client-img {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.client-info h4 {
+    margin: 0;
+}
